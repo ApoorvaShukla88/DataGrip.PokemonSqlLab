@@ -1,0 +1,12 @@
+use pokemon;
+show tables;
+select from pokemons count(types);
+select name from pokemons where id =45;
+
+select count(id) as NumberOfPokemon from pokemons;
+select count(*) from pokemon.pokemons  where secondary_type <> null;
+select primary_type from pokemon.pokemons;
+select secondary_type from pokemons where name = 'Rufflet';
+select trainername as names from trainers where trainerID = 303;
+
+
